@@ -26,7 +26,7 @@ def load_model():
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("dry_bean_selected_features.csv")
+    return pd.read_csv("dry_bean_dataset.csv")
 
 package = load_model()
 df = load_data()
